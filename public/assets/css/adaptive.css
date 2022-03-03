@@ -1,0 +1,131 @@
+@media screen and (max-width:1400px) {
+    .header-background .main-menu .submenu {
+        right: 0;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .for-ellements-user, .for-menu-header {
+        display: none;
+    }
+
+    html {
+        font-size: 14px;
+    }
+
+    .header-background .flag-allerts-menu-mini {
+        display: flex;
+    }
+
+    .button img {
+        display: none;
+    }
+
+    .products .for-config {
+        padding: 2.5em 2.3em 2em 2.3em;
+    }
+
+    .flag-allerts-menu-mini .submenu-alerts {
+        right: 1em;
+    }
+}
+
+@media screen and (max-width:767px) {
+    html {
+        font-size: 13px;
+    }
+
+    .arrow {
+        width: 1.25em;
+        margin-left: 5px;
+    }
+
+    .container .service {
+        padding: 2em 2.5em;
+    } 
+
+    .main-menu .a-main-menu-billing {
+        font-size: 16px;
+    }
+
+    .for-raise-balance .parametrs-balance {
+        justify-content: center;
+    }
+
+    .search-after-767px {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .for-services .search-to-767px {
+        display: none;
+    }
+
+
+    .products .for-config {
+        width: 24.375em;
+    }
+}
+
+@media screen and (max-width:900px){
+    .for-services{
+        flex-direction: column;
+    }
+
+    .for-services > * {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    html {
+        font-size: 10.5px;
+    }
+
+    .main-menu .a-main-menu-billing, .for-services h1 {
+        font-size: 12px;
+    }
+
+    .arrow {
+        margin-left: 3px;
+    } 
+
+   .button-from-history {
+        padding: 0.45em 0.6875em;
+    } 
+
+    .button-menu-mini, .e-menu-mini {
+        width: 20px;
+    }
+
+    .e-menu-mini {
+        border: 1px solid #0688FF;
+    }
+
+    .for-raise-balance {
+        padding: 1.3125em 2.3125em;
+    } 
+}
+
+@media screen and (max-width: 400px){
+    .for-user{
+        width: 100%;
+    }
+
+    .text-search.open{
+        margin-left: unset;
+        width: 24vw;
+      /*   min-width: 50vw; */
+    }
+}
+
+
+@media screen and (max-width: 900px){
+    .items-center.display-flex.pages{
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+}

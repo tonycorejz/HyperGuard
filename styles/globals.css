@@ -1,0 +1,58 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.popup-transition-enter {
+  opacity: 0.01;
+}
+
+.popup-transition-enter.popup-transition-enter-active { 
+  opacity: 1; 
+  
+  -webkit-transition: opacity 500ms ease-in; 
+  -moz-transition: opacity 500ms ease-in; 
+  -ms-transition: opacity 500ms ease-in; 
+  -o-transition: opacity 500ms ease-in;
+  transition: opacity 500ms ease-in; 
+}
+
+.popup-transition-leave {
+  opacity: 1;
+}
+
+.popup-transition-leave.popup-transition-leave-active {
+  opacity: 0.01;
+  -webkit-transition: opacity 500ms ease-in;
+  -moz-transition: opacity 500ms ease-in;
+  -ms-transition: opacity 500ms ease-in;
+  -o-transition: opacity 500ms ease-in;
+  transition: opacity 500ms ease-in;
+}
+
+.popup-transition-appear {
+  opacity: 0.01;
+}
+
+.popup-transition-appear.popup-transition-appear-active {
+  opacity: 1;
+  
+  -webkit-transition: opacity .5s ease-in;
+  -moz-transition: opacity .5s ease-in;
+  -ms-transition: opacity .5s ease-in;
+  -o-transition: opacity .5s ease-in;
+  transition: opacity .5s ease-in;
+}
