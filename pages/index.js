@@ -104,14 +104,12 @@ export default function Home() {
     useEffect(() => {
         const getData = async() => {
             await setTimeout( () => { 
-                alert('test2');
                 setTableData(testTableData);
                 setShownData(testTableData);
                 setMarketingData(testMarketingData);
                 setPageLoaded(true);
             }, 1000)
         }
-        alert('test');
         getData();
     }, [])
 
